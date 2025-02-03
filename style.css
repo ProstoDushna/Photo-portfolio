@@ -1,0 +1,73 @@
+/* Загальні стилі */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Меню навігації */
+nav {
+    background: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Хедер */
+header {
+    margin: 50px 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Галерея */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
